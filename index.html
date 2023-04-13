@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      *{
+        margin:0 0;
+        padding: 0 0;
+      }
+      body, html {
+        overflow: hidden;
+      }
+      @font-face {
+        font-family: 'Hamilton';
+        src: url('./public/fonts/Hamilton.ttf') format('woff');
+      }
+      @font-face {
+        font-family: 'Sentient';
+        src: url('./public/fonts/Sentient-Regular.ttf') format('woff');
+      }
+      @keyframes background-pan {
+        from {
+          background-position: 0% center;
+        }
+        to {
+          background-position: -200% center;
+        }
+      }
+    </style>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
