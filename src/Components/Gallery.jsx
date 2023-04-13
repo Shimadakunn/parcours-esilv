@@ -103,6 +103,7 @@ const Title = styled.h1`
   font-family: 'Hamilton';
   text-align: center;
   padding-top: 1vmin;
+  font-size: 2.5em;
 `
 const Text = styled.p`
   flex-grow: 1;
@@ -112,11 +113,12 @@ const Text = styled.p`
   & > p{
     text-align: center;
     position: absolute;
-    top: 52.5%;
+    top: 57.5%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 95%;
     gap: 1vmin;
+    font-size: 0.75em;
   }
   & > p > br {
     display: block;
