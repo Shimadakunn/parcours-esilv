@@ -118,7 +118,7 @@ const Text = styled.p`
     transform: translate(-50%, -50%);
     width: 95%;
     gap: 1vmin;
-    font-size: 0.75em;
+    font-size: 0.7em;
   }
   & > p > br {
     display: block;
