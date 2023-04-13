@@ -224,7 +224,7 @@ function Gallery() {
           En effet je fais des <Link href="https://shimadakunn.github.io/imbh/">sites web</Link> pour des amis artistes et mon but lors des créations est de pouvoir recréer leur univers à travers mon site.
           J’ai pu faire des projets en rapport que vous pouvez retrouver sur mon <Link href="https://github.com/Shimadakunn/Shimaadakunn">Github</Link></p>
         </Text>
-        <Hider className="Hider"></Hider>)
+        <Hider className="Hider"></Hider>
       </Content>
     </Container>
   )
